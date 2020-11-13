@@ -17,10 +17,10 @@ or run
 
 ### Feature flags
 Based on [FF4J](https://github.com/ff4j/ff4j)
-DB table - `ff4j_features`
-Feature RBAC table - `ff4j_roles`
-NOTE: role name is a privilige, not role
-For more details about roles and priviliges please take a look at section `Permissions` below
+DB table - `ff4j_features` </br>
+Feature RBAC table - `ff4j_roles` </br>
+NOTE: role name is a privilige, not role </br>
+For more details about roles and priviliges please take a look at section `Permissions` below </br>
 
 How to check if a feature flag is enabled/disabled: </br>
 `
