@@ -26,10 +26,12 @@ How to check if a feature flag is enabled/disabled: </br>
 `
 curl --request GET 'http://localhost:8080/api/ff4j/check/fflag-qc'
 `
+</br>
 How to enable a feature flag: </br>
 `
 curl --request POST 'http://localhost:8080/api/ff4j/store/features/fflag-qc/enable' --header 'Content-Type: application/json
 `
+</br>
 How to disable a feature flag: </br>
 `
 curl --request POST 'http://localhost:8080/api/ff4j/store/features/fflag-qc/disable' --header 'Content-Type: application/json
