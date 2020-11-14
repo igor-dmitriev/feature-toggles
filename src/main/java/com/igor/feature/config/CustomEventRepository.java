@@ -1,5 +1,8 @@
 package com.igor.feature.config;
 
+import com.igor.feature.newrelic.client.NewRelicClient;
+import com.igor.feature.newrelic.dto.Deployment;
+
 import org.ff4j.audit.Event;
 import org.ff4j.audit.EventConstants;
 import org.ff4j.audit.EventQueryDefinition;
@@ -9,6 +12,7 @@ import org.ff4j.audit.chart.BarChart;
 import org.ff4j.audit.chart.PieChart;
 import org.ff4j.audit.chart.TimeSeriesChart;
 import org.ff4j.audit.repository.EventRepository;
+import org.springframework.security.core.context.SecurityContextHolder;
 
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -19,6 +23,7 @@ import lombok.RequiredArgsConstructor;
 public class CustomEventRepository implements EventRepository {
 
   private final EventRepository source;
+  private final NewRelicClient newRelicDeploymentsClient;
 
   @Override
   public boolean saveEvent(Event e) {
@@ -26,7 +31,16 @@ public class CustomEventRepository implements EventRepository {
     if (!toggleSwitched) {
       return true;
     }
+    createNewRelicDeployment(e);
     return source.saveEvent(e);
+  }
+
+  private void createNewRelicDeployment(Event e) {
+    Deployment deployment = new Deployment();
+    deployment.setRevision("-");
+    deployment.setChangelog(String.format("Feature flag: %s, action: %s", e.getName(), e.getAction()));
+    deployment.setUser(SecurityContextHolder.getContext().getAuthentication().getName());
+    newRelicDeploymentsClient.createDeployment(deployment);
   }
 
   private boolean isToggleSwitched(Event e) {

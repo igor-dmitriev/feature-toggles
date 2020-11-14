@@ -18,3 +18,8 @@ spring:
       hibernate:
         show_sql: true
         format_sql: true
+
+newrelic:
+  deployments:
+    url: "${NEW_RELIC_DEPLOYMENT_API_URL:}"
+    api-key: "${NEW_RELIC_API_KEY:}"

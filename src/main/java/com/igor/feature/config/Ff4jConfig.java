@@ -1,5 +1,7 @@
 package com.igor.feature.config;
 
+import com.igor.feature.newrelic.client.NewRelicClient;
+
 import org.ff4j.FF4j;
 import org.ff4j.audit.repository.EventRepository;
 import org.ff4j.audit.repository.JdbcEventRepository;
@@ -22,9 +24,11 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class Ff4jConfig {
 
-  private final DataSource dataSource;
   @Value("${redis.host}")
   private String redisHost;
+
+  private final DataSource dataSource;
+  private final NewRelicClient newRelicDeploymentsClient;
 
   @Bean
   public FF4j getFF4j(AuthorizationsManager authorizationsManager) {
@@ -50,7 +54,7 @@ public class Ff4jConfig {
 
   @Bean
   public EventRepository eventRepository() {
-    return new CustomEventRepository(new JdbcEventRepository(dataSource));
+    return new CustomEventRepository(new JdbcEventRepository(dataSource), newRelicDeploymentsClient);
   }
 
   @Bean
