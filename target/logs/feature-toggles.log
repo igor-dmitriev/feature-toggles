@@ -134,3 +134,91 @@ Caused By: java.lang.ClassNotFoundException: org.postgresql.Driver
 2020-11-14 00:55:42|v:|c.i.f.FeatureApplication |[INFO ]|reqId:|userId:|main                |Started FeatureApplication in 2.899 seconds (JVM running for 3.525)
 2020-11-14 00:57:26|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown initiated...
 2020-11-14 00:57:26|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown completed.
+2020-11-14 08:27:38|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Starting FeatureApplicationTests using Java 1.8.0_241 on idmitriev with PID 20170 (started by user in /Users/idmitriev/workspace/feature-toggles)
+2020-11-14 08:27:38|v:|f.FeatureApplicationTests|[DEBUG]|reqId:|userId:|Test worker         |Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-14 08:27:38|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |No active profile set, falling back to default profiles: default
+2020-11-14 08:27:39|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Starting...
+2020-11-14 08:27:39|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Start completed.
+2020-11-14 08:27:40|v:|org.jboss.logging        |[DEBUG]|reqId:|userId:|Test worker         |Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-11-14 08:27:41|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Started FeatureApplicationTests in 3.483 seconds (JVM running for 4.787)
+2020-11-14 08:27:41|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown initiated...
+2020-11-14 08:27:41|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown completed.
+2020-11-14 08:28:30|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Starting FeatureApplicationTests using Java 1.8.0_241 on idmitriev with PID 20177 (started by user in /Users/idmitriev/workspace/feature-toggles)
+2020-11-14 08:28:30|v:|f.FeatureApplicationTests|[DEBUG]|reqId:|userId:|Test worker         |Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-14 08:28:30|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |No active profile set, falling back to default profiles: default
+2020-11-14 08:28:31|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Starting...
+2020-11-14 08:28:32|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Start completed.
+2020-11-14 08:28:32|v:|org.jboss.logging        |[DEBUG]|reqId:|userId:|Test worker         |Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-11-14 08:28:34|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Started FeatureApplicationTests in 3.554 seconds (JVM running for 5.107)
+2020-11-14 08:28:34|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown initiated...
+2020-11-14 08:28:34|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown completed.
+2020-11-14 08:29:18|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Starting FeatureApplicationTests using Java 1.8.0_241 on idmitriev with PID 20182 (started by user in /Users/idmitriev/workspace/feature-toggles)
+2020-11-14 08:29:18|v:|f.FeatureApplicationTests|[DEBUG]|reqId:|userId:|Test worker         |Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-14 08:29:18|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |No active profile set, falling back to default profiles: default
+2020-11-14 08:29:19|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Starting...
+2020-11-14 08:29:19|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Start completed.
+2020-11-14 08:29:20|v:|org.jboss.logging        |[DEBUG]|reqId:|userId:|Test worker         |Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-11-14 08:29:21|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Started FeatureApplicationTests in 3.297 seconds (JVM running for 4.807)
+2020-11-14 08:29:21|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown initiated...
+2020-11-14 08:29:21|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown completed.
+2020-11-14 08:29:39|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Starting FeatureApplicationTests using Java 1.8.0_241 on idmitriev with PID 20186 (started by user in /Users/idmitriev/workspace/feature-toggles)
+2020-11-14 08:29:39|v:|f.FeatureApplicationTests|[DEBUG]|reqId:|userId:|Test worker         |Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-14 08:29:39|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |No active profile set, falling back to default profiles: default
+2020-11-14 08:29:40|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Starting...
+2020-11-14 08:29:40|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Start completed.
+2020-11-14 08:29:40|v:|org.jboss.logging        |[DEBUG]|reqId:|userId:|Test worker         |Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-11-14 08:29:42|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Started FeatureApplicationTests in 3.398 seconds (JVM running for 4.796)
+2020-11-14 08:29:42|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown initiated...
+2020-11-14 08:29:42|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown completed.
+2020-11-14 08:30:34|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Starting FeatureApplicationTests using Java 1.8.0_241 on idmitriev with PID 20190 (started by user in /Users/idmitriev/workspace/feature-toggles)
+2020-11-14 08:30:34|v:|f.FeatureApplicationTests|[DEBUG]|reqId:|userId:|Test worker         |Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-14 08:30:34|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |No active profile set, falling back to default profiles: default
+2020-11-14 08:30:35|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Starting...
+2020-11-14 08:30:35|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Start completed.
+2020-11-14 08:30:36|v:|org.jboss.logging        |[DEBUG]|reqId:|userId:|Test worker         |Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-11-14 08:30:37|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Started FeatureApplicationTests in 3.641 seconds (JVM running for 4.776)
+2020-11-14 08:30:38|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown initiated...
+2020-11-14 08:30:38|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown completed.
+2020-11-14 08:30:55|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Starting FeatureApplicationTests using Java 1.8.0_241 on idmitriev with PID 20192 (started by user in /Users/idmitriev/workspace/feature-toggles)
+2020-11-14 08:30:55|v:|f.FeatureApplicationTests|[DEBUG]|reqId:|userId:|Test worker         |Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-14 08:30:55|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |No active profile set, falling back to default profiles: default
+2020-11-14 08:30:56|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Starting...
+2020-11-14 08:30:57|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Start completed.
+2020-11-14 08:30:57|v:|org.jboss.logging        |[DEBUG]|reqId:|userId:|Test worker         |Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-11-14 08:30:59|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Started FeatureApplicationTests in 4.465 seconds (JVM running for 6.057)
+2020-11-14 08:31:55|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Starting FeatureApplicationTests using Java 1.8.0_241 on idmitriev with PID 20195 (started by user in /Users/idmitriev/workspace/feature-toggles)
+2020-11-14 08:31:55|v:|f.FeatureApplicationTests|[DEBUG]|reqId:|userId:|Test worker         |Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-14 08:31:55|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |No active profile set, falling back to default profiles: default
+2020-11-14 08:31:56|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Starting...
+2020-11-14 08:31:56|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Start completed.
+2020-11-14 08:31:57|v:|org.jboss.logging        |[DEBUG]|reqId:|userId:|Test worker         |Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-11-14 08:31:58|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Started FeatureApplicationTests in 3.798 seconds (JVM running for 5.068)
+2020-11-14 08:31:58|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown initiated...
+2020-11-14 08:31:58|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown completed.
+2020-11-14 08:32:33|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Starting FeatureApplicationTests using Java 1.8.0_241 on idmitriev with PID 20203 (started by user in /Users/idmitriev/workspace/feature-toggles)
+2020-11-14 08:32:33|v:|f.FeatureApplicationTests|[DEBUG]|reqId:|userId:|Test worker         |Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-14 08:32:33|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |No active profile set, falling back to default profiles: default
+2020-11-14 08:32:34|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Starting...
+2020-11-14 08:32:35|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Start completed.
+2020-11-14 08:32:35|v:|org.jboss.logging        |[DEBUG]|reqId:|userId:|Test worker         |Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-11-14 08:32:37|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Started FeatureApplicationTests in 3.82 seconds (JVM running for 4.842)
+2020-11-14 08:32:37|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown initiated...
+2020-11-14 08:32:37|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown completed.
+2020-11-14 08:34:34|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Starting FeatureApplicationTests using Java 1.8.0_241 on idmitriev with PID 20222 (started by user in /Users/idmitriev/workspace/feature-toggles)
+2020-11-14 08:34:34|v:|f.FeatureApplicationTests|[DEBUG]|reqId:|userId:|Test worker         |Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-14 08:34:34|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |No active profile set, falling back to default profiles: default
+2020-11-14 08:34:35|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Starting...
+2020-11-14 08:34:35|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Start completed.
+2020-11-14 08:34:36|v:|org.jboss.logging        |[DEBUG]|reqId:|userId:|Test worker         |Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-11-14 08:34:37|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Started FeatureApplicationTests in 3.889 seconds (JVM running for 4.916)
+2020-11-14 08:34:38|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown initiated...
+2020-11-14 08:34:38|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown completed.
+2020-11-14 08:34:51|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Starting FeatureApplicationTests using Java 1.8.0_241 on idmitriev with PID 20225 (started by user in /Users/idmitriev/workspace/feature-toggles)
+2020-11-14 08:34:51|v:|f.FeatureApplicationTests|[DEBUG]|reqId:|userId:|Test worker         |Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-14 08:34:51|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |No active profile set, falling back to default profiles: default
+2020-11-14 08:34:52|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Starting...
+2020-11-14 08:34:53|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|Test worker         |HikariPool-1 - Start completed.
+2020-11-14 08:34:53|v:|org.jboss.logging        |[DEBUG]|reqId:|userId:|Test worker         |Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-11-14 08:34:55|v:|f.FeatureApplicationTests|[INFO ]|reqId:|userId:|Test worker         |Started FeatureApplicationTests in 3.819 seconds (JVM running for 4.909)
+2020-11-14 08:34:55|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown initiated...
+2020-11-14 08:34:55|v:|c.z.h.HikariDataSource   |[INFO ]|reqId:|userId:|gContextShutdownHook|HikariPool-1 - Shutdown completed.
