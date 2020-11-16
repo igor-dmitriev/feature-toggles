@@ -39,7 +39,7 @@ public class CustomEventRepository implements EventRepository {
     Deployment deployment = new Deployment();
     deployment.setRevision("-");
     deployment.setChangelog(String.format("Feature flag: %s, action: %s", e.getName(), e.getAction()));
-    deployment.setUser(SecurityContextHolder.getContext().getAuthentication().getName());
+    deployment.setUser("anonymous");
     newRelicDeploymentsClient.createDeployment(deployment);
   }
 
